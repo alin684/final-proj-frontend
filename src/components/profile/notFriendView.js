@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 import SendFriendRequest from '../../actions/sendFriendRequest'
 import AcceptFriendRequest from '../../actions/acceptFriendRequest'
 
-import {withRouter} from "react-router-dom";
+// import {withRouter} from "react-router-dom";
 
 class notFriendView extends React.Component {
   constructor(props) {
@@ -123,6 +123,15 @@ class notFriendView extends React.Component {
           </div>
         )
       }
+    } else {
+      return (
+        <div>
+          <button className="ui basic button notFriendViewButton" onClick={this.handleAddFriend}>
+            <i className="icon user"></i>
+            Add Friend
+          </button>
+        </div>
+      )
     }
   }
 
@@ -209,4 +218,4 @@ function mapDispatchToProps(dispatch) {
   }, dispatch)
 }
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(notFriendView))
+export default connect(mapStateToProps, mapDispatchToProps)(notFriendView)
