@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: red;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.parent {
+  background-color: #d8dfea
+}
+
+.signUpFormContainer {
+  width: 815px;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.signUpForm {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+
+.loginContainer {
+  width: 815px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.loginForm {
+  margin: auto;
+  width: 400px;
+}
+
+.mainBody {
+  margin: auto;
+  padding-top: 40px;
+  width: 815px;
+  background-color: #d8dfea;
+  display: flex;
+  height: 100%;
+}
+
+.navBar {
+  background-color: #3b5998 !important;
+}
+
+.ui.item.selection.dropdown {
+  background-color: #6d84b4 !important;
+  width: 250px;
+}
+
+.default.text {
+  color: white !important;
+}
+
+.item.cornerLogin {
+  color: white !important;
+}
+
+.notFriendView {
+  width: 400px;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ui.button.frontButton {
+  background-color: #3b5998 !important;
+  color: white !important;
+}
+
+.ui.basic.button.notFriendViewButton {
+  background-color: #3b5998 !important;
+  color: white !important;
+}
+
+.profilePic {
+  outline: 5px solid white;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 175px;
+  margin-left: 2%;
+  z-index: 2;
+  background-color: white;
+}
+
+.showNameOnProfile {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 310px;
+  margin-left: 240px;
+  font-size: 27px;
+}
+
+.infoBox {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  margin-left: 2%;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px;
+  z-index: 2;
+}
+
+.photoAlbumBox {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  margin-left: 2%;
+  margin-top: 400px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px;
+  z-index: 2;
+}
+
+.newPostBox {
+  width: 506px;
+  height: 150px;
+  margin-left: 38%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.newPostInput {
+}
+
+.newPostSubmitButton {
+  background-color: #3b5998 !important;
+  color: white !important;
+  margin: auto !important;
+}
+
+.wall {
+  width: 506px;
+  margin-left: 38%;
+  margin-top: 20px;
+}
+
+.postBox {
+  background: white;
+  padding: 30px;
+  width: 506px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.postContent {
+  margin-top: 20px;
+}
+
+.friendsContainer {
+  margin-top: 20px;
+  width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.insideTabButton {
+}
+
+.nameLink {
+  font-size: 18px;
+}
+
+.ui.bottom.attached.segment.active.tab {
+  height: 390px;
+  overflow: auto;
+}
+
+.ui.basic.button.insideTab {
+  background-color: #3b5998 !important;
+  color: white !important;
+}
+
+.feedContainer {
+  width: 506px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
