@@ -1,8 +1,9 @@
+BOOKFACE
 * Live:
-* Github Back End:
+* Github Back End: https://github.com/alin684/final-proj-backend
 
 # THE IDEA
-* Basic Template for a social networking website
+A social networking platform designed to connect you with anyone anywhere in the world, inspired by Facebook.
 
 # FEATURES
 * Account creation and JWT authentication
