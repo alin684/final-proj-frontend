@@ -44,6 +44,7 @@ class App extends Component {
               <Route path='/users/:id' render={
                 (renderProps) => {
                   const id = renderProps.match.params.id
+                  console.log(id)
                   return this.isLoggedIn() ? <ProfileContainer currentPageUserId={id} /> : <Redirect to="/" />
                 }
               } />

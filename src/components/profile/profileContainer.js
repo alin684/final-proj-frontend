@@ -136,6 +136,8 @@ class ProfileContainer extends React.Component {
   }
 
   render() {
+
+    console.log(this.props.currentPageUserId)
     return(
       <div className="mainBody">
         {this.isFriends(this.props.currentPageUserId) ? <div>{this.renderCoverPhotoContainer()} {this.renderProfilePicContainer()} {this.renderInfo()} {this.renderPhotoAlbums()} {this.renderNewPost()} {this.renderWall()}</div> : <div>{this.renderCoverPhotoContainer()} {this.renderProfilePicContainer()} {this.renderNotFriendView()}</div>}

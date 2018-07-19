@@ -6,7 +6,6 @@ import friendsReducer from './friends'
 import pendingFriendsReducer from './pendingFriends'
 import requestedFriendsReducer from './requestedFriends'
 
-
 export default combineReducers({
   currentUser: currentUserReducer,
   posts: postsReducer,
