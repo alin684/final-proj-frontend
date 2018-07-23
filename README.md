@@ -1,5 +1,5 @@
 # BOOKFACE
-* Live:
+* Live: https://youtu.be/dGeUfFZY1hw
 * Github Back End: https://github.com/alin684/final-proj-backend
 
 # THE IDEA
