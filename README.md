@@ -25,5 +25,3 @@ A social networking platform designed to connect you with anyone anywhere in the
 * Image Handling: React-Dropzone
 * Image Hosting: Cloudinary
 * Routing: React-Router
-
-* Deployment: Heroku
