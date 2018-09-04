@@ -6,6 +6,7 @@ export default function friendsReducer (state = {}, action) {
     case 'REMOVE_FRIEND': {
       return action.payload
     }
+    
     default: {
       return state
     }
