@@ -35,6 +35,10 @@ class App extends Component {
 
   }
 
+  doesUserExist = () => {
+
+  }
+
   render() {
     return (
         <Router>
